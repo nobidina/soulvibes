@@ -64,8 +64,9 @@
           <span class="player__track-name">The Diary of Jane - Breaking Benjamin</span>
           <span class="player__track-time">3:20</span>
           <div class="player__scale">
-            <div class="player__scale player__scale_fill"></div>
-            <div class="player__slider"></div>
+            <div class="player__scale player__scale_fill">
+              <div class="player__slider"></div>
+            </div>
           </div>
         </div>
 
@@ -101,15 +102,14 @@
     <section class="genres">
 
       <!--title-->
-      <h2 class="title">
-        <i class="title__decor"></i>
-        <span class="title__text">Genres Stations</span>
-      </h2>
+      <div class="title">
+        <h2 class="title__text">Genres Stations</h2>
+      </div>
 
       <!--genres__list-->
       <ul class="genres__list">
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="67" height="71">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon1"></use>
             </svg>
@@ -117,7 +117,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="83" height="82">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon2"></use>
             </svg>
@@ -125,7 +125,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="99" height="94">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon3"></use>
             </svg>
@@ -133,7 +133,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="64" height="67">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon4"></use>
             </svg>
@@ -141,7 +141,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="70" height="71">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon5"></use>
             </svg>
@@ -149,7 +149,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="85" height="86">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon6"></use>
             </svg>
@@ -157,7 +157,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="68" height="76">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon7"></use>
             </svg>
@@ -165,7 +165,7 @@
           </a>
         </li>
         <li class="genres__item">
-          <a class="genres__link">
+          <a class="genres__link" href="#">
             <svg class="genres__icon" width="76" height="79">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#genres-icon8"></use>
             </svg>
@@ -180,10 +180,9 @@
     <section class="events">
 
       <!--title-->
-      <h2 class="title">
-        <i class="title__decor"></i>
-        <span class="title__text">Genres Stations</span>
-      </h2>
+      <div class="title">
+        <h2 class="title__text">Latest News</h2>
+      </div>
 
       <div class="events__block">
         <ul class="events__list">
@@ -220,10 +219,9 @@
     <section class="news">
 
       <!--title-->
-      <h2 class="title">
-        <i class="title__decor"></i>
-        <span class="title__text">Latest News</span>
-      </h2>
+      <div class="title">
+        <h2 class="title__text">Latest News</h2>
+      </div>
 
       <div class="news__inner">
         <article class="article-prev">
@@ -249,27 +247,24 @@
 
     <section class="subscription">
       <!--title-->
-      <h2 class="title">
-        <i class="title__decor"></i>
-        <span class="title__text">Latest News</span>
-      </h2>
+      <div class="title">
+        <h2 class="title__text">Contact Us</h2>
+      </div>
 
       <div class="subscription__block">
         <div class="subscription__inner">
-          <h3 class="subscription__title"></h3>
-          <p class="subscription__text"></p>
+          <h3 class="subscription__title">Join Our Community</h3>
+          <p class="subscription__text">Be among the first to hear about our new tracks, events, news<br> and so much more!</p>
           <form class="subscription__form" method="post" action="#">
-            <input type="email" name="email" placeholder="Your email address">
-            <input type="submit" value="Subscribes">
+            <input class="subscription__input" type="email" name="email" placeholder="Your email address">
+            <input class="subscription__btn" type="submit" value="Subscribes">
           </form>
         </div>
       </div>
     </section>
 
     <footer class="page-footer">
-      <span class="copyrights">
-        Copyright © 2017 soulvibes.  All rights reserved
-      </span>
+      <span class="copyrights">Copyright © 2017 soulvibes.  All rights reserved</span>
       <div class="social-btns">
         <a class="social-btns__item" href="#">
           <svg class="social-btns__icon" width="15" height="28">
