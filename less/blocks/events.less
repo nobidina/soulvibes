@@ -3,25 +3,35 @@
   padding-top: 35px;
   padding-bottom: 30px;
   background: url("../../img/events-bg.jpg") no-repeat center center;
-  background-size: auto;
+  background-size: 100% 100%;
   &::after {
     content: url("../../img/events-bg2.png");
     position: absolute;
-    top: -80px;
-    right: 200px;
+    top: -95px;
+    right: 215px;
     width: 540px;
   }
 }
-.events__list {
-  list-style: none;
-  padding: 20px 0 20px 20px;
 
-  .container();
+@media (min-resolution: 144dpi),
+        (min-resolution: 1.5dppx) {
+  .events__block {
+    background: url("../../img/events-bg@2x.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    }
+}
+
+.events__list {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 27px 0 35px 35px;
+  width: 925px;
+  margin: 0 auto;
   border-left: 2px solid #fff;
 }
 .events__item {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -29,7 +39,7 @@
     content: "";
     position: absolute;
     top: 0;
-    left: -27px;
+    left: -42px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -42,10 +52,10 @@
 }
 .events__when {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .events__title {
-  margin: 0 0 25px 0;
+  margin: 0 0 15px 0;
   font-family: @font-montserrat-bold;
   font-size: 48px;
   line-height: 48px;
