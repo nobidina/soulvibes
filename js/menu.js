@@ -36,13 +36,14 @@
 
     off: function() {
       this.button.classList.remove('main-menu__toggle_no-js');
+      this.elem.classList.remove('main-menu__list_hidden');
 
       this.button.onclick = null;
     }
   };
 
   function onResize() {
-    if (window.innerWidth < 768)
+    if (window.innerWidth < 800)
       menu.init();
     else
       menu.off();

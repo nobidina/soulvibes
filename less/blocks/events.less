@@ -63,3 +63,33 @@
 .event__location {
   line-height: 24px;
 }
+
+@media (max-width: 1150px) {
+  .events__block {
+    &::after {
+      right: 30px;
+    }
+  }
+  .events__list {
+    width: 90%;
+    margin: 0 5%;
+    border-left: 2px solid #fff;
+  }
+}
+
+@media (max-width: 920px) {
+  .events__block {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .events__block {
+    background-size: cover;
+  }
+  .events__title {
+    font-size: 6.4vw;
+  }
+}

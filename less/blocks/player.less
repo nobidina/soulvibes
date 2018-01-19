@@ -76,3 +76,87 @@
     background-color: #72040d;
   }
 }
+
+@media (max-width: 850px) {
+  .player__progress-bar {
+    width: 55%;
+  }
+}
+
+@media (max-width: 800px) {
+  .player__progress-bar {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .player__inner {
+    flex-wrap: wrap;
+  }
+  .player__btn {
+    &_volume {
+      margin-left: 50%;
+    }
+  }
+  .player__progress-bar {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .player__btn {
+    &_volume {
+      margin-left: 45%;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .player__btn {
+    &_volume {
+      margin-left: 40%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .player__progress-bar {
+    width: 80%;
+  }
+  .player__btn {
+    &_volume {
+      margin-left: 35%;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .player__btn {
+    &_volume {
+      margin-left: 20%;
+    }
+  }
+  .player__track-name {
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 370px) {
+  .player__progress-bar {
+    width: 75%;
+  }
+  .player__btn {
+    &_volume {
+      margin-left: 25%;
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  .player__track-name {
+    width: 150px;
+  }
+}

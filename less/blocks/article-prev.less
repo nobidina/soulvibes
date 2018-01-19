@@ -37,3 +37,37 @@
 .article-prev__text {
   margin: 0 0 35px 0;
 }
+
+@media (max-width: 800px) {
+  .article-prev {
+    width: 47%;
+    margin-right: 6%;
+    margin-bottom: 45px;
+    &:last-of-type {
+      margin-right: 6%;
+    }
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .article-prev {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 580px) {
+  .article-prev {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+}
