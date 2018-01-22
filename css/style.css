@@ -544,11 +544,11 @@ img {
   position: relative;
   padding-top: 35px;
   padding-bottom: 30px;
-  background: #b23330 url("../../img/events-bg.jpg") no-repeat center center;
+  background: #b23330 url("../img/events-bg.jpg") no-repeat center center;
   background-size: 100% 100%;
 }
 .events__block::after {
-  content: url("../../img/events-bg2.png");
+  content: url("../img/events-bg2.png");
   position: absolute;
   top: -95px;
   right: 215px;
@@ -556,7 +556,7 @@ img {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .events__block {
-    background: #b23330 url("../../img/events-bg@2x.jpg") no-repeat center center;
+    background: #b23330 url("../img/events-bg@2x.jpg") no-repeat center center;
     background-size: 100% 100%;
   }
 }
@@ -760,12 +760,12 @@ img {
 }
 .intro {
   padding-bottom: 115px;
-  background: #612629 url("../../img/intro-bg.jpg") no-repeat top left;
+  background: #612629 url("../img/intro-bg.jpg") no-repeat top left;
   background-size: cover;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .intro {
-    background: #612629 url("../../img/intro-bg@2x.jpg") no-repeat top left;
+    background: #612629 url("../img/intro-bg@2x.jpg") no-repeat top left;
     background-size: cover;
   }
 }
@@ -1196,12 +1196,12 @@ img {
 .subscription__block {
   padding-top: 50px;
   padding-bottom: 60px;
-  background: #31343c url("../../img/subscribes-bg.jpg") no-repeat center center;
+  background: #31343c url("../img/subscribes-bg.jpg") no-repeat center center;
   background-size: auto;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .subscription__block {
-    background: #31343c url("../../img/subscribes-bg@2x.jpg") no-repeat center center;
+    background: #31343c url("../img/subscribes-bg@2x.jpg") no-repeat center center;
     background-size: cover;
   }
 }
