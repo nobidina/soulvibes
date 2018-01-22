@@ -1,14 +1,14 @@
 .subscription__block {
   padding-top: 50px;
   padding-bottom: 60px;
-  background: url("../../img/subscribes-bg.jpg") no-repeat center center;
+  background: #31343c url("../../img/subscribes-bg.jpg") no-repeat center center;
   background-size: auto;
 }
 
 @media (min-resolution: 144dpi),
         (min-resolution: 1.5dppx) {
   .subscription__block {
-    background: url("../../img/subscribes-bg@2x.jpg") no-repeat center center;
+    background: #31343c url("../../img/subscribes-bg@2x.jpg") no-repeat center center;
     background-size: cover;
   }
 }
@@ -39,6 +39,7 @@
   width: 100%;
   height: 60px;
   padding-left: 20px;
+  padding-right: 140px;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -64,5 +65,58 @@
   }
   &:active {
     opacity: 0.4;
+  }
+}
+
+@media (max-width: 850px) {
+  .subscription__title {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  .subscription__text {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .subscription__block {
+    background-image: none;
+    background-color: #31343c;
+  }
+  .subscription__text br {
+    display: none;
+  }
+  .subscription__form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .subscription__text {
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+  .subscription__input {
+    height: 50px;
+    padding-right: 120px;
+    font-size: 2.9vw;
+  }
+  .subscription__btn {
+    width: 100px;
+    height: 40px;
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .subscription__btn {
+     font-size: 2.4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscription__btn {
+     font-size: 2.9vw;
   }
 }

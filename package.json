@@ -1,8 +1,8 @@
 {
-  "name": "soulvibes",
+  "name": "mishka",
   "version": "0.1.0",
   "private": true,
-  "description": "Тренировочный макет",
+  "description": "Личный проект «Мишка» от HTML Academy",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "0.1.x",
     "autoprefixer": "6.5.3",
@@ -14,7 +14,6 @@
     "grunt-contrib-less": "1.4.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-csso": "^2.1.0",
-    "grunt-gh-pages": "^2.0.0",
     "grunt-postcss": "0.8.0",
     "grunt-svgmin": "^4.0.0",
     "grunt-svgstore": "^1.0.0",
