@@ -870,11 +870,11 @@ img {
   padding: 0;
   border: none;
   background: none;
-  background: url("../../img/menu.svg") no-repeat 0 0;
+  background: url("../img/menu.svg") no-repeat 0 0;
   background-size: 100% 100%;
 }
 .main-menu__toggle_close {
-  background: url("../../img/cross.svg") no-repeat 0 1px;
+  background: url("../img/cross.svg") no-repeat 0 1px;
 }
 .main-menu__toggle_no-js {
   display: none;
